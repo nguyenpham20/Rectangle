@@ -11,11 +11,11 @@ function rectangle(length,width) {
         document.write("Dien tich hinh chu nhat la: " +area+ "<br/>");
     }
     this.perimeter=function () {
-        let perimeter=(length+width)/2;
+        let perimeter=(length+width)*2;
         document.write("Chu vi hinh chu nhat la: " +perimeter+ "<br/>");
     }
 }
-let abc =new rectangle(4,5);
+let abc =new rectangle(3,4);
 abc.area();
 abc.perimeter();
 abc.import();
